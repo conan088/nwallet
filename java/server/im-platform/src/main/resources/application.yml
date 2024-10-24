@@ -1,0 +1,64 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: im-platform
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/box-im?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: bpFRqEKQEsh2atda
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 10
+        max-wait: 100
+        min-idle: 2
+    password: knz5CUk7jNTP000p
+    timeout: 10000
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+mybatis-plus:
+  configuration:
+    # 是否开启自动驼峰命名规则
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations:
+    - classpath*:mapper/*.xml
+minio:
+  endpoint: http://127.0.0.1:9000 #内网地址
+  public: http://teco.trains.vip  #外网访问地址
+  accessKey: minioadmin
+  secretKey: minioadmin
+  bucketName: box-im
+  imagePath: image
+  filePath: file
+  videoPath: video
+# nohup  ./minio server /usr/local/minio --console-address ":9001" --address ":9000"   >/dev/null 2>&1 &
+
+webrtc:
+  iceServers:
+    - urls: stun:stun.l.google.com:19302
+
+jwt:
+  accessToken:
+    expireIn: 1800 #半个小时
+    secret: MIIBIjANBgkq
+  refreshToken:
+    expireIn: 604800 #7天
+    secret: IKDiqVmn0VFU
+    
+key: "5c9fe1f86a320673"

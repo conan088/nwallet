@@ -1,0 +1,24 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 10
+        max-wait: 100
+        min-idle: 2
+    password: knz5CUk7jNTP000p
+    timeout: 10000
+websocket:
+  enable: true
+  port: 8878
+
+tcpsocket:
+  enable: false # 暂时不开启
+  port: 8879
+
+jwt:
+  accessToken:
+    secret: MIIBIjANBgkq  # 跟im-platfrom的secret必须一致
+    

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="25" viewBox="0 0 82 25">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+        text-anchor: middle;
+        font-family: Poppins;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="图层_1" data-name="图层 1" width="24" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAB1klEQVRIia3Wz4tNYRgH8I/TSH6Ug2bKxtyFDRvXSlKMsrCUUrLyJ8xGtlZWYqwsLKaUNeUPmGt2GKEU2ZAaC0PmYpLQ6K3n1nG8d+7Pb72b5zzn+zzv9/me9z0GRBPloC/l0MAsFvAF613WM8zjTL/EZbzQjXCj9bZXoWYkDUNeXfPdOh8HeWfdqBfoJcsPvMHXAYrMdMgbPRIT8aMhdnGvU2B2g6THuD2CVOUETmRm8hEt/MH5fi2YwUxR1aqCzdiHHdg2QoFm0eXLXI7uP6MYocD0RCb4C09D/60DkP1Gna+R666N0ziKneGifrCcy8kVSInXsT/mc7cP8vSdvM892BR2quI7fmIOu3AED3Ephp/DSsQma89auQJruIlzYdWVOKfSzvakweEgPoTLXmFLHDUXalxzSaJ3teB2XMYidofLEtlr7I0G7oQZHmAKnzLkCe0iusxJNx0SrYVkx/AE33AAV3EYq2GGHFpF6FtHip/CS5wMeZoxzCJ2ORW7TxIfz3Csdpove9xa7Ti40hF8DWexhFuD3AtXxngXrEfDjfqWFsZY4GJuIGVIMWrnWfIqUsIw12fS/D9Zkh27Ibkm/SUcqpy4KZbc0fl2nuMF7kf8X+Av2moZeY66YU4AAAAASUVORK5CYII="/>
+  <text id="NPay" class="cls-1" x="48.545" y="17.845"><tspan x="48.545">NPay</tspan></text>
+</svg>

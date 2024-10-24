@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="25" viewBox="0 0 82 25">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+        fill: #33c641;
+        text-anchor: middle;
+        font-family: Poppins;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="图层_1" data-name="图层 1" width="24" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAACJklEQVRIia3Wz4uNURgH8I/bSH7lV03ZMOVH2Li6pVzF3JLsjGxkIfMPYDYssbE0tspiUtYGWb8zFndBb4YUsTCpsRA1E0KIzjh3el3nztx7x7du3c457/f7fJ/neZ/z6gSVeq1cqdfWdvLMktRipV7rwwCOooxWpBPxdyevZqMLCsTohnG6I2t/MImhZqE5gWAft9HXBXkRI3k1G/xLIEb++D+QN3Atr2ZD4X8pLgwvQP4Vr/CxTYFzlXqtf1YgFnS+nAfip9iG1R24OCs6GJjn0COMY28HxA0MhNT34GBi8x3G8BMnuiBvoD846E9sLMUmrMKKRQiUSy1eoqkY/YdCI3SDzT2Jh74jx0Ms74D0B5r5+lLRzeAI9mENXrYpMJVaTAmEg1exNdbnVhvkX/CmXYEtOI/7sU0P40pMXSt8wo7UXqoGYXxcx6nYquNxoo5gQygcduFt7LLnWIbXONnENVGKU7CIlbiAB1gfuyyQvcBGfMbN6OgeevE+QR4wU4pRplyESNdFwm/YH1MW5tHOmLY9mI7NkMJYKaYgVZtDeIZaLHw5FrMUXfZG979wIMExnVezWYHRGEUKZ7A9zqK7sWY34rnQZcejsxRGFe6DS7jY4mA3CAHvyavZZPFGy1rMpW4wmFezEU3vwbGGrUVGPkc+l6IiKvVauHxCujq9PgPp5ZCW4mLysyUKha4Jl9HuwsQNayHKBkn4ZHkSnOfV7N9GwW+1I4TBWikLvgAAAABJRU5ErkJggg=="/>
+  <text id="NPay" class="cls-1" x="48.545" y="18.845"><tspan x="48.545">NPay</tspan></text>
+</svg>
